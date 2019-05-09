@@ -1,13 +1,10 @@
 package intro;
 
-public class DecoyDuck extends Duck implements Quackable {
+public class DecoyDuck extends Duck {
 
-    @Override
-    public void display(){
-        System.out.println("This is Deco-Duck!");
+    public DecoyDuck(){
+        flyBehaviour = new FlyNoWay();
+        quackBehaviour=new QuackLoudly();
     }
-    @Override
-    public void quack(){
-        System.out.println("Nice voice fo quack");
-    }
+
 }

@@ -9,21 +9,24 @@ public class SimUDuck {
 
         QuackLoudly quackLoudly=new QuackLoudly();
         d1.display();
-        d1.quack();
+        d1.performQuack();
         d1.swim();
-        d1.fly();
+        d1.performFly();
         System.out.println();
         d2.display();
-        d2.quack();
+        d2.performFly();
         d2.swim();
-        d2.fly();
+        d2.performQuack();
         System.out.println();
         d3.display();
-        d3.fly();
+        d3.performFly();
+        d3.performQuack();
         d3.swim();
         System.out.println();
         d4.display();
-        d4.quack();
+        d4.performFly();
+        d4.performQuack();;
+        d4.swim();
 
     }
 }
