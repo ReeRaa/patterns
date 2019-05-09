@@ -1,7 +1,6 @@
 package intro;
 
 public class RedHeadDuck extends Duck{
-    @Override
     public void quack(){
         System.out.println("Qwerrrrr");
     }
@@ -12,5 +11,8 @@ public class RedHeadDuck extends Duck{
     @Override
     public void display(){
         System.out.println("This is RedHead duck");
+    }
+    public void fly(){
+        System.out.println("Mallard is flying");
     }
 }
