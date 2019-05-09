@@ -10,6 +10,7 @@ public class RubberDuck extends Duck implements Flyable{
         System.out.println("I am rubber-duck");
     }
     public void fly(){
-        System.out.println("I am flying rubber-duck");
+        FlyNoWay flyNoWay=new FlyNoWay();
+        flyNoWay.fly();
     }
 }

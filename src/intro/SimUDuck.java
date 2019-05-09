@@ -9,9 +9,9 @@ public class SimUDuck {
 
         QuackLoudly quackLoudly=new QuackLoudly();
         d1.display();
-        quackLoudly.quack();
+        d1.quack();
         d1.swim();
-       // d1.fly();
+        d1.fly();
         System.out.println();
         d2.display();
         d2.quack();

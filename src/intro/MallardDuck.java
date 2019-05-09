@@ -17,4 +17,13 @@ public class MallardDuck extends Duck {
     public void display(){
         System.out.println("This is Mallard duck");
     }
+
+    public void quack(){
+        QuackLoudly quackLoudly=new QuackLoudly();
+        quackLoudly.quack();
+    }
+    public  void fly(){
+        FlyWithWings flyWithWings=new FlyWithWings();
+        flyWithWings.fly();
+    }
 }

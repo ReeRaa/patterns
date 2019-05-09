@@ -2,7 +2,8 @@ package intro;
 
 public class RedHeadDuck extends Duck{
     public void quack(){
-        System.out.println("Qwerrrrr");
+        QuackLoudly quackLoudly=new QuackLoudly();
+        quackLoudly.quack();
     }
     @Override
     public void swim(){
@@ -12,7 +13,9 @@ public class RedHeadDuck extends Duck{
     public void display(){
         System.out.println("This is RedHead duck");
     }
+
     public void fly(){
-        System.out.println("Mallard is flying");
+        FlyNoWay flyNoWay=new FlyNoWay();
+        flyNoWay.fly();
     }
 }
