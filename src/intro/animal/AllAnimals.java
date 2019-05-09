@@ -4,8 +4,6 @@ import java.util.Random;
 
 public class AllAnimals {
     public static void main(String[] args) {
-        Animal doqqy=new Dog();
-        Animal cat =new Cat();
 
         int randomNumber;
         int i=1; //the counter
