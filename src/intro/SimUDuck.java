@@ -7,10 +7,11 @@ public class SimUDuck {
         RubberDuck d3=new RubberDuck();
         DecoyDuck d4=new DecoyDuck();
 
+        QuackLoudly quackLoudly=new QuackLoudly();
         d1.display();
-        d1.quack();
+        quackLoudly.quack();
         d1.swim();
-        d1.fly();
+       // d1.fly();
         System.out.println();
         d2.display();
         d2.quack();
