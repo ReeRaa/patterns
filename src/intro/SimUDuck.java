@@ -28,5 +28,17 @@ public class SimUDuck {
         d4.performQuack();;
         d4.swim();
 
+        BirdSpecies bs;
+        bs=BirdSpecies.CATBIRD;
+        System.out.println(bs);
+
+        switch (bs){
+            case CATBIRD:
+                System.out.println("this is cat");break;
+            case DOGBIRD:
+                System.out.println("this is dog");break;
+            case SOMEBIRD:
+                System.out.println("this is some birdy");break;
+        }
     }
 }
